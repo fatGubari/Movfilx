@@ -1,0 +1,366 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    position: sticky;
+}
+.first ul{
+    margin: 20px 0;
+}
+li{
+    display: inline;
+}
+.first ul li{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+.first ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    border-radius: 10px;
+}
+.first ul li a:hover{
+    background-color: white;
+    color: black;
+    box-shadow:0 0 10px white;
+}
+.firstli{
+    position: absolute;
+    top: 15px;
+    left: 3%;
+    font-weight: bold;
+}
+.second{
+    background-image: url(../images/font9.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+.third{
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+}
+.third h1{
+    padding-top: 50px;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.third p{
+    font-size: 15px;
+    font-style: italic;
+}
+.fourth{
+    margin: 50px auto ;
+    text-align: center;
+}
+.fourth a{
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50px;
+    text-align: center;
+}
+.fourth a:hover{
+    border:1px solid black;
+    color: black;
+}
+.fifth{
+    padding: 40px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.fifth p{
+    margin: auto;
+    font-size: 20px;
+    color: rgb(189, 39, 39);
+    font-weight: bold;
+    border-bottom: 1px solid rgb(189, 39, 39);
+}
+.fifth h4{
+    padding-top: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.sixth{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.sixthdiv{
+    flex-basis: 50%;
+}
+.sixthdiv h4{
+    text-align: left;
+    margin-bottom: 10px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.sixthul{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.sixthul ul li{
+    padding: 0 20px;
+    text-align: initial;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color:  rgb(189, 39, 39);
+    font-size: 20px;
+    display: block;
+}
+.sixthimg{
+    flex-basis: 50%;
+    margin: auto;
+}
+.sixthimg img{
+width: 350px;
+height: 500px;
+border-radius: 10px;
+margin-bottom: 20px;
+}
+#seventh{
+    background-color: rgb(4, 3, 3);
+}
+.eighth{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+.eighthimg{
+    flex-basis: 48%;
+    text-align: center;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    color:white;
+    position: relative;
+}
+.eighthimg img{
+    width: 100%;
+    border-radius: 7px;
+}
+.eighthdiv1{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 1s;
+    background-color: rgb(48, 47, 47);
+    opacity: 0;
+}
+.eighthimg:hover .eighthdiv1{
+    opacity: 0.5;
+}
+.eighthdiv{
+    width: 80%;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 20px;
+    opacity: 0;
+    transition: 1s;
+}
+.eighthimg:hover .eighthdiv{
+    bottom: 40%;
+    opacity: 1;
+}
+.ninth{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.ninthdiv{
+    flex-basis: 28%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 6px black;
+    cursor: pointer;
+    transition: 1s;
+}
+.ninthdiv p{
+    font-size: 15px;
+}
+.ninthimg{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.ninthimg img{
+    width: 40px;
+    margin-right: 20px;
+    border-radius: 4px;
+}
+.ninthdiv:hover{
+    transform: translateY(-7px);
+}
+#tenth{
+    background-color:  rgb(4, 3, 3);
+}
+.tenthdiv{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.tenthdiv1{
+    flex-basis: 45%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.tenthdiv1 h4{
+    color:rgb(189, 39, 39); 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.tenthdiv1 p{
+    font-family: cursive;
+    color: white;
+}
+.tenthdiv2{
+    text-align: center;
+}
+.tenthdiv2 img{
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 40px 5px 0;
+    cursor: pointer;
+}
+.tenthdiv2 img:hover{
+    opacity: 0.5;
+}
+
+.tenthdiv2 p{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* page2 */
+.second-second{
+    height: 60vh;
+    width: 100%;
+    background-image: url(../images/font3.jpg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+.third h3{
+    color: white;
+    font-weight: bold;
+    font-family: cursive;
+    text-align: center;
+}
+.fifth h3{
+    margin: auto;
+    font-size: 25px;
+    color: rgb(189, 39, 39);
+    font-weight: bold;
+    border-bottom: 1px solid rgb(189, 39, 39);
+    padding-bottom: 10px;
+}
+.eleventh{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.seventh-div1{
+    flex-basis: 15%;
+    padding: 5px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 4px black;
+    background-color: black;
+}
+.seventh-div3{
+    align-items: center;
+    margin: 3px 0;
+}
+.seventh-div3 img{
+    width: 100%;
+    border-radius: 4px;
+}
+.sixth-sixth{
+    padding-left: 50px;
+    margin-bottom: 20px;
+}
+.sixth-sixth h4{
+    font-family: cursive;
+    font-weight: bold;
+}
+.seventh-div4{
+    display: flex;
+    justify-content: center;
+    background-color:rgb(189, 39, 39);
+    border-radius: 5px;
+    margin: 6px;
+}
+.seventh-div4 a{
+    color: white;
+    text-decoration: none;
+}
+.seventh-div1:hover{
+    transform: translateY(-7px);
+    cursor: pointer;
+    transition: 1s;
+}
+.seventh-div4 a:hover{
+    color: black;
+}
+.zero{
+background: rgb(46, 46, 46);
+width: 300px;
+padding: 30px;
+position: absolute;
+top: 27%;
+border-radius: 10px;
+left: 40%;
+}
+.zero input {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 15px auto;
+    text-align: center;
+    border: 2px solid rgb(189, 39, 39);
+    padding: 11px 10px;
+    width: 200px;
+    color: white;
+    border-radius: 25px;
+    transition: 1s;
+}
+.zero h2{
+    color: rgb(189, 39, 39);
+}
+.zero input[type="submit"]{
+    width: 100px;
+    color: rgb(189, 39, 39);
+}
+.zero input[type="submit"]:hover{
+    background: black;
+}
